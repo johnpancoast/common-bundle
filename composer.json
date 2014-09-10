@@ -1,0 +1,18 @@
+{
+    "name": "shideon/common-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle containing common functionality",
+    "keywords": ["application"],
+    "authors": [
+        {
+            "name": "John Pancoast",
+            "email": "shideon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+    },
+    "autoload": {
+        "psr-4": { "Shideon\\Bundle\\CommonBundle\\": "" }
+    },
+}
